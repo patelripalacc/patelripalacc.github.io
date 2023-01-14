@@ -1,0 +1,22 @@
+* {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(34, 10, 10);
+    color: rgb(233, 242, 250);
+}
+
+.h1{
+    margin: 10px;
+    display: grid;
+    text-align: center;
+    align-self: auto;
+    font-size: 30px;
+}
+
+.website {
+    margin: 10px;
+    display: grid;
+    text-align: center;
+    align-self: auto;
+    font-size: 20px;
+}
