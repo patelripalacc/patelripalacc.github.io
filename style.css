@@ -1,13 +1,13 @@
 * {
     margin: 0;
     padding: 10px;
-    /* background-color: rgb(34, 10, 10); */
-    color: rgb(233, 242, 250);
-    background-image: url(./image.png/istockphoto-1337668467-612x612.jpg); 
+    color: rgb(32, 134, 223);
+    background-image: url(./image.png/Future\ -\ 12917.mp4); 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+    background-repeat: no-repeat;
 }
 
 
@@ -48,6 +48,14 @@ h3{
     font-size: 25px;
 }
 
-/* .background {
-    background-image: url(./image.png/ruvim-noga-o0R4iqk1eRQ-unsplash.jpg);
-} */
+#background-video {
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: -1;
+}
