@@ -2,12 +2,6 @@
     margin: 0;
     padding: 10px;
     color: rgb(196, 209, 220);
-    background-image: url(./image.png/Future\ -\ 12917.mp4); 
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    background-repeat: no-repeat;
 }
 
 
@@ -58,4 +52,12 @@ h3{
     top: 0;
     bottom: 0;
     z-index: -1;
+}
+
+@media (max-width: 750px) {
+    #background-video { display: none; }
+    body {
+      background: url("./image.png/abstract-motion-graphic-background_1519570.jpg") no-repeat;
+      background-size: cover;
+    }
 }
