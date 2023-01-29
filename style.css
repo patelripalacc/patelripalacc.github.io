@@ -1,4 +1,4 @@
-* {
+/* * {
     margin: 0;
     padding: 10px;
     color: rgb(196, 209, 220);
@@ -22,8 +22,7 @@
     display: grid;
     text-align: center;
     align-self: auto;
-    font-size: 342px;
-    padding: auto;
+    padding-top: 30px;
 }
 
 #icon {
@@ -59,7 +58,7 @@ h3{
     height: 100vh;
     object-fit: cover;
     position: fixed;
-    
+    left: 0;
     right: 0;
     top: 0;
     bottom: 0;
@@ -73,8 +72,8 @@ h3{
 
 p {
     text-align: center;
-    font-weight: 900;
-    font-size: 40px;
+    font-weight: 500;
+    font-size: 30px;
 }
 
 ol {
@@ -89,4 +88,137 @@ ol {
       background: url("./image.png/abstract-motion-graphic-background_1519570.jpg") no-repeat;
       background-size: cover;
     }
+} */
+
+*{
+    margin: 0;
+    padding: 0;
 }
+
+body{
+    font-size: 100%;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+.Toplinks {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 50px;
+    box-sizing: border-box;
+    align-items: center;
+    position: fixed;
+    z-index: 999;
+}
+
+.Toplinks li{
+    list-style: none;
+    display: inline-block;
+}
+
+.Toplinks li a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+
+section {
+    width: 100%;
+    height: 100vh;
+    float: left;
+    position: relative;
+}
+
+#Home{
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(to bottom, #023047, rgb(0, 0, 0));
+}
+
+#Summary{
+    background-color: #ed6663;
+
+}
+
+#Skills{
+    background-color: #B52B65;
+}
+
+#Education{
+    background-color: #3c2c3e;
+}
+
+#Certificates{
+    background-color: #61876E;
+}
+
+#Projects{
+    background-color: #205295;
+}
+
+.h1{
+    margin: 10px;
+    display: grid;
+    text-align: center;
+    align-items: center;
+    align-self: auto;
+    font-size: 50px;
+    color: wheat;
+    padding-top: 200px;
+    /* background: linear-gradient(to right, #ef5350, #f48fb1, #7e57c2, #2196f3, #26c6da, #43a047, #eeff41, #f9a825, #ff5722);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;*/
+    
+}
+
+h2{
+    font-size: 50px;
+    text-align: center;
+    margin-top: 100px;
+
+}
+h3{
+    font-size: 40px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+p{
+    padding-top: 50px;
+    font-size: 20px;
+}
+
+.website {
+    margin: 10px;
+    display: grid;
+    text-align: center;
+    align-self: auto;
+    padding-top: 30px;
+    font-size: 30px;
+}
+
+a{
+    color: wheat;
+}
+
+#icon {
+    display: flex;
+    justify-content: center;
+    list-style-type:none;
+    grid-template-columns: 33.33% 33.33%;
+}
+
+#logo{
+    height: 50px;
+    width: 50px;
+}
+
+ul#icon {
+    column-gap: 50px;
+    margin-top: 100px;
+}
+
+
